@@ -11,3 +11,16 @@ public class App {
     huonekalut[1] = "sohva";
     huonekalut[2] = "pöytä";
     huonekalut[3] = "kaappi";
+
+     for (int i=0 ; i<huonekalut.length ; i++)
+    {
+        
+        if (huonekalut[i].equals("sohva"))
+        {
+        System.out.println(huonekalut[i]);
+    }
+    }
+
+
+    }
+}
